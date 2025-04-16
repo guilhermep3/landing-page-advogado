@@ -39,7 +39,7 @@ export const Header = () => {
    }, []);
 
    return (
-      <header className="fixed z-10 w-full bg-gray-500 dark:bg-gray-900/80 border-b-2 border-zinc-400 dark:border-zinc-500">
+      <header className="fixed z-10 w-full bg-gray-900/80 border-b-2 border-zinc-500">
          <div className="container mx-auto flex justify-between items-center p-3 sm:p-5">
             <div>
                <Image

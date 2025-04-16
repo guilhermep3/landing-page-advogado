@@ -6,7 +6,7 @@ export const Footer = () => {
    return (
       <footer className="w-full bg-gray-900 px-3 py-10">
          <div className="container mx-auto flex flex-col justify-center items-center">
-            <div className="flex gap-10 flex-col sm:flex-row sm:justify-between w-full ">
+            <div className="flex gap-10 flex-col sm:flex-row sm:justify-between w-full text-white">
                <div className="flex flex-col gap-5 justify-start items-start">
                   <p className="text-xl font-bold">Advogado <br />
                      Antonio Lopes</p>
