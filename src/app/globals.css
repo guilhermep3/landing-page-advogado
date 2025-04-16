@@ -39,7 +39,7 @@ body {
 #about{
   background-image: url('/bg-law.jpg');
   background-size: cover;
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
 }
 .btn{
@@ -75,4 +75,12 @@ body {
   z-index: 10;
   background-color: #979797;
   transition: all 0.2s ease;
+}
+.pulse-animation{
+  animation: pulse 1.2s ease-in-out infinite;
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
 }
