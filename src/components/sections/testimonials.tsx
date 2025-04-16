@@ -25,7 +25,7 @@ export const Testimonials = () => {
                modules={[Navigation, Pagination]}
                pagination={{ clickable: true }}
                navigation
-               spaceBetween={10} // Adiciona espaço entre slides
+               spaceBetween={10}
                breakpoints={{
                   768: {
                      slidesPerView: 2,
@@ -35,7 +35,7 @@ export const Testimonials = () => {
             >
                {TestimonialsData.map((t) => (
                   <SwiperSlide key={t.id} className="py-12">
-                     <div className="text-black py-10 border-l-4 border-[var(--primary-color)] px-16">
+                     <div className="text-black py-10 border-none sm:border-l-4 border-[var(--primary-color)] px-16">
                         <div className="mb-10">
                            <p className="text-lg font-semibold">{t.description}</p>
                         </div>

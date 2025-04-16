@@ -11,7 +11,7 @@ export const Hero = () => {
             <div className="flex-1 text-center sm:text-start">
                <h1 className="text-3xl sm:text-5xl font-bold sm:leading-16 border-b-4 pb-3 border-[var(--primary-color)]">Advogado <br/> Antonio Lopes</h1>
                <h1 className="text-xl sm:text-2xl font-semibold my-5 sm:my-10">Precisa resolver questões jurídicas com segurança e confiança?</h1>
-               <Button text="Converse comigo" icon={<FaWhatsapp className="size-8"/>} className="w-64 font-bold text-lg mx-auto sm:mx-0 rounded-full"/>
+               <Button text="Fale comigo" icon={<FaWhatsapp className="size-8"/>} className="font-bold text-lg mx-auto sm:mx-0 rounded-full"/>
             </div>
             <div className="flex-1">
                <Image src={'/advogado.png'} alt="Imagem do advogado"

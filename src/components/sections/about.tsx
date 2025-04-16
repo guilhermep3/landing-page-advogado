@@ -29,7 +29,7 @@ export const About = () => {
                </div>
                <p className="mt-5 text-base sm:text-lg font-semibold text-center sm:text-start">
                   Me ligue para conversarmos
-                  <span className="font-bold text-lg sm:text-xl sm:ml-2"> +55(11)999999999</span>
+                  <span className="font-bold text-lg sm:text-xl sm:ml-2"> (11)999999999</span>
                </p>
             </div>
             <div className="flex-1 flex flex-col justify-center items-center">

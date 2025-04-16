@@ -33,7 +33,8 @@ export const Services = () => {
             </div>
             <div>
                <Image src={'/law.png'} alt="law"
-                  width={520} height={520} className="sticky top-0 w-full md:max-w-[320px] lg:max-w-[520px] hidden md:block" />
+                  width={520} height={520}
+                  className="sticky top-0 w-full md:max-w-[320px] lg:max-w-[520px] hidden md:block" />
             </div>
          </div>
       </section>
