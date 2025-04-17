@@ -1,4 +1,5 @@
 "use client"
+import { BtnToTop } from "@/components/btnToTop";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Loading } from "@/components/loading";
@@ -33,6 +34,7 @@ export default function Home() {
             <Testimonials />
             <Local />
             <Footer />
+            <BtnToTop/>
          </div>
       </div>
    );
