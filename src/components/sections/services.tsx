@@ -7,7 +7,7 @@ export const Services = () => {
 
    return (
       <section id="services" className="bg-zinc-950">
-         <div className="container mx-auto px-3 py-12 flex">
+         <div className="container mx-auto px-3 py-14 flex">
             <div className="flex-1 text-white">
                <Secspan text="Serviços" />
                <Sectiontitle className="text-white"
@@ -17,7 +17,7 @@ export const Services = () => {
                   {Servicedata.map((service) => (
                      <div key={service.id}
                         data-aos="fade-down"
-                        className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-10 items-center px-3 sm:px-5 py-5 rounded-2xl shadow-lg shadow-zinc-900 text-white">
+                        className="flex flex-col sm:flex-row gap-3 md:gap-8 lg:gap-10 items-center px-3 sm:px-5 py-5 rounded-2xl shadow-md hover:shadow-lg transition shadow-zinc-900 text-white">
                         <div className="flex items-center gap-5 md:gap-7">
                            <p className="text-2xl font-bold"># <span className="text-3xl">{service.id}</span></p>
                            <Image src={service.image} alt={service.title}

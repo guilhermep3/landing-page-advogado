@@ -8,6 +8,7 @@ import { register } from "swiper/element-bundle";
 import { TestimonialsData } from "@/data/testimonials";
 import { Secspan } from "../secspan";
 import { Sectiontitle } from "../sectiontitle";
+import { FaStar } from "react-icons/fa";
 
 export const Testimonials = () => {
    register();
@@ -35,7 +36,7 @@ export const Testimonials = () => {
             >
                {TestimonialsData.map((t) => (
                   <SwiperSlide key={t.id} className="py-12">
-                     <div className="text-black py-10 border-none sm:border-l-4 border-[var(--primary-color)] px-16">
+                     <div className="text-black py-10 border-l-none sm:border-l-4 border-[var(--primary-color)] px-16">
                         <div className="mb-10">
                            <p className="text-lg font-semibold">{t.description}</p>
                         </div>
@@ -43,7 +44,10 @@ export const Testimonials = () => {
                            <img src={`/testimonials/${t.image}`} alt={`Avaliação de ${t.name}`}
                               className="size-20 object-cover max-s rounded-full" />
                            <div className="flex flex-col justify-center gap-2">
-                              <p className="text-xl font-bold">{t.name}</p>
+                              <p className="text-xl font-bold flex items-center gap-3">
+                                 {t.name}
+                                 <span className="text-lg flex items-center gap-1"><FaStar className="fill-yellow-500"/> 5.0</span>
+                              </p>
                               <p className="opacity-75">{t.role}</p>
                            </div>
                         </div>

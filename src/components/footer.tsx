@@ -40,6 +40,7 @@ export const Footer = () => {
                </div>
             </div>
             <div className="mt-10 text-white">
+               <p>copyright - todos os direitos reservados</p>
                <p className="text-sm">Desenvolvido por <a href="" className="hover:underline">Guilherme Pereira</a></p>
             </div>
          </div>

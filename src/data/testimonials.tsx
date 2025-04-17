@@ -4,7 +4,7 @@ export const TestimonialsData = [
       image: "testimonial1.jpg",
       name: "Fernanda Torres",
       description: "O atendimento foi excepcional! O advogado demonstrou grande conhecimento e resolveu meu caso com rapidez e eficiência. Recomendo fortemente!",
-      role: 'Programador'
+      role: 'Atriz'
    },
    {
       id: 2,
@@ -30,8 +30,8 @@ export const TestimonialsData = [
    {
       id: 5,
       image: "testimonial5.jpg",
-      name: "Juliana Mendes",
-      description: "Confiança e competência definem o trabalho desse advogado. Me senti segura durante todo o processo. Recomendo a todos!",
-      role: 'Atriz'
+      name: "Juliano Mendes",
+      description: "Confiança e competência definem o trabalho desse advogado. Me senti seguro durante todo o processo. Recomendo a todos!",
+      role: 'Programador'
    }
 ];

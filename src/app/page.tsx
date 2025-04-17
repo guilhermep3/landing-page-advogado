@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 import { Loading } from "@/components/loading";
 import { About } from "@/components/sections/about";
 import { Hero } from "@/components/sections/hero";
-import { Local } from "@/components/sections/local";
+import { Contato } from "@/components/sections/contact";
 import { Services } from "@/components/sections/services";
 import { Testimonials } from "@/components/sections/testimonials";
 import { useEffect, useState } from "react";
@@ -32,7 +32,7 @@ export default function Home() {
             <About />
             <Services />
             <Testimonials />
-            <Local />
+            <Contato />
             <Footer />
             <BtnToTop/>
          </div>

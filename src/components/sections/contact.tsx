@@ -3,11 +3,11 @@ import { Button } from "../button"
 import { Secspan } from "../secspan"
 import { Sectiontitle } from "../sectiontitle"
 
-export const Local = () => {
+export const Contato = () => {
 
    return (
-      <section id="local" className="bg-zinc-100 text-black min-h-[80vh]">
-         <div className="container mx-auto flex flex-col items-center mb-10" data-aos="fade-up">
+      <section id="contact" className="bg-zinc-100 text-black min-h-[75vh]">
+         <div className="container mx-auto flex flex-col items-center mb-10 py-5" data-aos="fade-up">
             <Secspan text="Contato" className="text-black text-center mx-auto" />
             <Sectiontitle className="text-black"
                text={<>Estou aqui para te <span className="text-[var(--primary-color)]">ouvir</span> e oferecer a melhor <span className="text-[var(--primary-color)]">orientação</span></>} />

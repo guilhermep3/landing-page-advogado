@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Button } from "./button";
 
-const sections = ["hero", "about", "services", "testimonials", "local"];
+const sections = ["hero", "about", "services", "testimonials", "contact"];
 
 export const Header = () => {
    const [activeSection, setActiveSection] = useState('');
@@ -65,8 +65,8 @@ export const Header = () => {
                               ? 'Serviços'
                               : id === 'testimonials'
                               ? 'Avaliações'
-                              : id === 'local'
-                              && 'Local'}
+                              : id === 'contact'
+                              && 'Contato'}
                         </a>
                      </li>
                   ))}
