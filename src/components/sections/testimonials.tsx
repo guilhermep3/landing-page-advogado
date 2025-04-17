@@ -17,7 +17,7 @@ export const Testimonials = () => {
       <section id="testimonials" className="bg-zinc-100">
          <div className="container mx-auto px-3 py-12">
             <div>
-               <Secspan text="Avaliações" className="text-black" />
+               <Secspan text="Avaliações"  className="text-black mx-auto sm:mx-0" />
                <Sectiontitle className="text-black"
                   text={<><span className="text-[var(--primary-color)]">Avaliações</span> dos meus clientes<br /></>} />
             </div>

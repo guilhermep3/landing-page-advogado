@@ -9,7 +9,7 @@ export const Services = () => {
       <section id="services" className="bg-zinc-950">
          <div className="container mx-auto px-3 py-14 flex">
             <div className="flex-1 text-white">
-               <Secspan text="Serviços" />
+               <Secspan text="Serviços" className="mx-auto sm:mx-0" />
                <Sectiontitle className="text-white"
                   text={<>Compaixão, Cuidado e <br /><span className="text-[var(--primary-color)]">Compromisso</span></>} />
                <p className="my-10 text-lg">Foram esses valores que despertaram minha paixão pela advocacia e me motivaram a me especializar nas áreas abaixo.</p>
